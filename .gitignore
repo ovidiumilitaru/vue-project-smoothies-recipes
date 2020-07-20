@@ -2,7 +2,14 @@
 node_modules
 /dist
 
+# firestore firebase directories and files
 firebaseconfig.js
+.firebaserc 
+firebase.json
+firebase-debug.log
+firestore.rules
+firestore.indexes.json
+/.firebase
 
 # local env files
 .env.local
