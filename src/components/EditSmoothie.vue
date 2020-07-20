@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import db from '@/firebase/init'
+import db from '@/firebase/firebaseconfig'
 import slugify from 'slugify'
 
 export default {

@@ -15,25 +15,11 @@
       </div>
     </div>
   </div>
-
-    <!-- <div class="index container">
-    <div class="card" v-for="smoothie in smoothies" :key="smoothie.id">
-      <div class="card-content">
-        <i class="material-icons delete" @click="deleteSmoothie(smoothie.id)">delete</i>
-        <h2 class="indigo-text">{{ smoothie.title }}</h2>
-        <ul class="ingredients">
-          <li v-for="(ing, index) in smoothie.ingredients" :key="index">
-            <span class="chip">{{ ing }}</span>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div> -->
 </template>
 
 <script>
 
-import db from '@/firebase/init'
+import db from '@/firebase/firebaseconfig'
 
 export default {
   name: 'Index',
